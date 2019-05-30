@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="405dp"
+        android:layout_height="735dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:text="@string/txtTen"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:text="@string/txtTen" />
+
+    <TextView
+        android:id="@+id/txtSĐT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSĐT"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/txtNgàySinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNgàySinh"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <EditText
+        android:id="@+id/editTên"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editTên"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/editSĐT"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editSĐT"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <EditText
+        android:id="@+id/editNgàySinh"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editNgàySinh"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="275dp"
+        android:layout_height="77dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="454dp">
+
+        <CheckBox
+            android:id="@+id/chkNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkNam"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <CheckBox
+            android:id="@+id/chkNữ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkNữ"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <TextView
+            android:id="@+id/txtGiớiTính"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtGiớiTính"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="-2dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txtChọnPhim"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:text="@string/txtChọnPhim"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="302dp"
+        android:layout_height="28dp"
+        android:entries="@array/chonphim_array"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/txtChọnRạp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtChọnRạp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="299dp"
+        android:layout_height="26dp"
+        android:entries="@array/chonrap_array"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/txtSốLượngVé"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="@string/txtSốLượngVé"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <EditText
+        android:id="@+id/editSốLượngVé"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editSốLượngVé"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/textĐịaChỉ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtĐịaChỉ"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <EditText
+        android:id="@+id/editĐịaChỉ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editĐịaChỉ"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+</android.support.constraint.ConstraintLayout>

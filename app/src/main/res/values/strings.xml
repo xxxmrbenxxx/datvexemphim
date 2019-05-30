@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DatVeXemPhim</string>
+    <string name="txtTen">Tên:</string>
+    <string name="txtSĐT">SĐT:</string>
+    <string name="txtNgàySinh">Ngày Sinh:</string>
+    <string name="editTên"></string>
+    <string name="editSĐT"></string>
+    <string name="editNgàySinh"></string>
+    <string name="txtGiớiTính">Giới Tính</string>
+    <string name="chkNam">Nam</string>
+    <string name="chkNữ">Nữ</string>
+    <string name="txtChọnPhim">Chọn Phim</string>
+    <string-array name="chonphim_array">
+        <item>Trạng Quỳnh</item>
+        <item>Siêu Sao Siêu Ngố</item>
+        <item>Cua Lại Vợ Bầu</item>
+        <item>Hồn Pa Pa Da Con Gái</item>
+        <item>Ba Chàng Khuyết</item>
+        <item>Biệt Đội Siêu Anh Hùng 4: Hồi Kết Avengers: Endgame</item>
+        <item>Sát Thủ John Wick 3: Chuẩn Bị Chiến Tranh John Wick Chapter 3: Parabellum</item>
+    </string-array><string name="txtChọnRạp">Chọn Rạp</string>
+    <string-array name="chonrap_array">
+        <item>CGV Big C Nha Trang</item>
+        <item>Beta</item>
+        <item>LotteCinema</item>
+    </string-array>
+    <string name="txtSốLượngVé">Số Lượng Vé:</string>
+    <string name="editSốLượngVé"></string>
+    <string name="txtĐịaChỉ">Địa Chỉ</string>
+    <string name="editĐịaChỉ"></string>
+</resources>
